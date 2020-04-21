@@ -1,0 +1,6 @@
+steps:
+- name: ubuntu
+  entrypoint: bash
+  args:
+  - '-c'
+  - echo $_MESSAGE

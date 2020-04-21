@@ -1,0 +1,6 @@
+steps:
+- name: mcr.microsoft.com/powershell
+  entrypoint: pwsh
+  args:
+  - '-c'
+  - Write-Host $_MESSAGE
